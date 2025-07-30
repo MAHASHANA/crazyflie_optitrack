@@ -45,9 +45,16 @@ and Server Version : 3.0 later versions.
 ![src-->natnet-->natnet_messages.cpp lines 204-206](assets/img1.png)
 ![src-->natnet-->natnet_messages.cpp lines 223-226](assets/img2.png)
 
+once you have built the mocap_optitrack pkg run the belwo commands. **Make sure that you are connected to the same network as the optitrack system.**
+```bash
+cd mocap_optitrack
+colcon build
+source install/setup.bash
+ros2 launch mocap_optitrack mocap.launch.py
+```
 ---
 
-## Launch Instructions
+## Launch Instructions for Crazyflie
 
 ```bash
 git clone https://github.com/MAHASHANA/crazyflie_optitrack.git
