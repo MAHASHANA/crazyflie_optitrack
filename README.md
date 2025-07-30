@@ -42,8 +42,8 @@ crazyflie_pose_follower/
 You need to make few modifcations to make it work for NATNet Version : 4.1.0.0
 and Server Version : 3.0 later versions.
 
-[src/natnet/natnet_messages.cpp lines 204-206](assets/img1.png)
-[src/natnet/natnet_messages.cpp lines 223-226](assets/img2.png)
+![src-->natnet-->natnet_messages.cpp lines 204-206](assets/img1.png)
+![src-->natnet-->natnet_messages.cpp lines 223-226](assets/img2.png)
 
 ---
 
