@@ -41,7 +41,7 @@ crazyflie_pose_follower/
 - OptiTrack/NatNet pose publishing to ROS 2 (`/Robot_1/pose`, `/Robot_2/pose`) https://github.com/ros-drivers/mocap_optitrack
 You need to make few modifcations to make it work for NATNet Version : 4.1.0.0
 and Server Version : 3.0 later versions.
-
+- In src/natnet/natnet_messages.cpp Uncomment the lines below for optitarck to send data.
 ![src-->natnet-->natnet_messages.cpp lines 204-206](assets/img1.png)
 ![src-->natnet-->natnet_messages.cpp lines 223-226](assets/img2.png)
 
