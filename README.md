@@ -66,4 +66,7 @@ source install/setup.bash
 source /opt/ros/humble/setup.bash
 
 # Launch the Crazyflie pose follower node
-ros2 run crazyflie_pose_follower pose_follower_node 
+ros2 run crazyflie_pose_follower pose_follower_node
+# open a new terminal
+ros2 topic pub --once /crazyflie/takeoff std_msgs/msg/String "data: 'start'"
+
